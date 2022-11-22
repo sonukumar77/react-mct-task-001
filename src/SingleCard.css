@@ -1,0 +1,46 @@
+.card{
+    border:2px solid black;
+    background-color: var(--white);
+    color: var(--dark)!important;
+    width:100%;
+    height: 20%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardLeftContainer{
+    /* border: 2px solid rgb(198, 34, 61); */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.cardLeftContainer h2{
+    margin-bottom: 0.5rem;
+    
+}
+.cardLeftContainer .link{
+    text-decoration: none;
+    color: var(--dark);
+}
+.cardRightContainer{
+    /* border: 2px solid rgb(84, 243, 48); */
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+.cardRightContainer img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}

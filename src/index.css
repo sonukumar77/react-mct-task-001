@@ -1,0 +1,22 @@
+:root{
+  --primary:#2F323B;
+  --secondary:rgba(8, 8, 8, 0);
+  --white:#ffff;
+  --yellow:#FEC007;
+  --light-yellow:#ebb922;
+  --green:rgb(19, 106, 55);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: var(--primary);
+  color: var(--dark);
+}
